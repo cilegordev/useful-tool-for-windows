@@ -1,0 +1,4 @@
+[EditionID]
+Professional
+[Channel]
+Retail
