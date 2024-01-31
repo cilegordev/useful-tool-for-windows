@@ -28,5 +28,6 @@ As Linux user. I think there are some Windows applications that cannot be replac
 
 - Microsoft Office
 - Adobe Creative
+- WhatsApp for desktop
 
 And I'm still figuring out the rest
