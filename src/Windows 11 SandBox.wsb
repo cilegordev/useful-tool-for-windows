@@ -1,0 +1,12 @@
+<Configuration>
+    <MappedFolders>
+        <MappedFolder>
+            <HostFolder>C:\Users\Administrator\Downloads</HostFolder>
+            <SandboxFolder>C:\HostShare</SandboxFolder>
+            <ReadOnly>true</ReadOnly>
+        </MappedFolder>
+    </MappedFolders>
+<Networking>Disable</Networking>
+<ClipboardRedirection>Enable</ClipboardRedirection>
+<ProtectedClient>Enable</ProtectedClient>
+</Configuration>
