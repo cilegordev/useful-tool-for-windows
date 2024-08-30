@@ -7,9 +7,9 @@
 # *******************************************
 #
 # Tester: Cilegordev
-# Date: 26-08-2024
-# Work on Google Chrome 116.0.5845.188
-# https://google-chrome.en.uptodown.com/windows/download/107461017
+# Date: 30-08-2024
+# Work good on Google Chrome 118.0.5993.118
+# https://www.filepuma.com/download/google_chrome_64bit_118.0.5993.118-36892
 #
 # *******************************************
 
