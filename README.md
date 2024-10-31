@@ -28,6 +28,9 @@
 - [SVG-Viewer](https://github.com/tibold/svg-explorer-extension) for quick view svg
 - [Traffic-Monitor](https://github.com/zhongyang219/TrafficMonitor) for monitoring netspeed
 
+## Tweak
+- [Windows Defender Remover](https://github.com/ionuttbara/windows-defender-remover) for disable windows defender in windows server
+
 ## Note
 
 As Linux user. I think there are some Windows applications that cannot be replaced on Linux. Between :
