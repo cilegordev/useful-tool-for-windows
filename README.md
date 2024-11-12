@@ -24,6 +24,7 @@
 
 ## Plugins
 - [Battery-Percentage](https://apps.microsoft.com/detail/9n3hdtncf6z8?hl=en-US&gl=US) for monitoring percentace battery
+- [Ext4Fsd](https://github.com/bobranten/Ext4Fsd) for driver Ext4 reader in Windows
 - [Monitorian](https://github.com/emoacht/Monitorian) for managing brightness monitor pc
 - [SVG-Viewer](https://github.com/tibold/svg-explorer-extension) for quick view svg
 - [Traffic-Monitor](https://github.com/zhongyang219/TrafficMonitor) for monitoring netspeed
