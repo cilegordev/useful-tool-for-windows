@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\01SYSTEMShell]
+@="SYSTEM shell"
+"Icon"="cmd.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\01SYSTEMShell\command]
+@="C:\\Windows\\System32\\PowerRun.exe \"/WD:%V\" \"C:\\Windows\\System32\\cmd.exe\""
