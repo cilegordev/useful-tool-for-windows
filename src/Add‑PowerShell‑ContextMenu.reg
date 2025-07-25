@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\01OpenPowerShell]
+@="Open shell here"
+"Icon"="cmd.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\01OpenPowerShell\command]
+@="powershell.exe -NoExit -Command \"Set-Location -LiteralPath '%V'\""
