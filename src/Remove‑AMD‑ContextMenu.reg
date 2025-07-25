@@ -1,0 +1,25 @@
+Windows Registry Editor Version 5.00
+
+; ───────────────────────────────────────────────
+; Hapus / blok "AMD Software: Adrenalin Edition"
+; pada menu‑konteks Windows Explorer
+; © 2025
+; ───────────────────────────────────────────────
+
+; 1) Bersihkan key klasik “ACE” (versi driver lama)
+[-HKEY_CLASSES_ROOT\Directory\Background\shellex\ContextMenuHandlers\ACE]
+[-HKEY_CLASSES_ROOT\Directory\shellex\ContextMenuHandlers\ACE]
+[-HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\ACE]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\Background\shellex\ContextMenuHandlers\ACE]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shellex\ContextMenuHandlers\ACE]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shellex\ContextMenuHandlers\ACE]
+
+; 2) Blokir GUID shell‑extension yang diketahui
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Blocked]
+"{6767B3BC-8FF7-11EC-B909-0242AC120002}"=""  ; Adrenalin UWP (Win 11 22H2+)
+"{FDADFEE3-02D1-4E7C-A511-380F4C98D73B}"=""  ; Adrenalin (2023)
+"{5E2121EE-0300-11D4-8D3B-444553540000}"=""  ; ATI CCC legacy
+
+; 3) Opsional: singkirkan registrasi PackagedCom
+;    (dipakai beberapa build RSXCM/UWP – jalankan ONLY if key exists)
+[-HKEY_CLASSES_ROOT\PackagedCom\Package\AdvancedMicroDevicesInc-RSXCM_*]
