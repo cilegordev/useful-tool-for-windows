@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\.cmd]
+@="cmdfile"
+
+[HKEY_CLASSES_ROOT\.cmd\ShellNew]
+"FileName"="C:\\Templates\\template.cmd"
+
+[HKEY_CLASSES_ROOT\.reg]
+@="regfile"
+
+[HKEY_CLASSES_ROOT\.reg\ShellNew]
+"FileName"="C:\\Templates\\template.reg"
