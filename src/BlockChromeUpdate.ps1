@@ -40,3 +40,7 @@ Stop-Service gupdate
 Stop-Service gupdatem
 
 Log "Stopped running Google update services(s)."
+
+Remove-Item -Path "C:\Program Files (x86)\Google" -Recurse -Force
+
+Log "Removing gupdate folders."
